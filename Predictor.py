@@ -5,7 +5,7 @@ from random import randint
 i = 0
 while i < 10: 
     # Load the data from Excel file
-    data = pd.read_excel("previous_data.xlsx")
+    data = pd.read_excel("previous_data (3).xlsx")
 
     # Split the data into features (X) and target (y)
     X = data[['1st_number', '2nd_number', '3rd_number', '4th_number', '5th_number', '6th_number']]
